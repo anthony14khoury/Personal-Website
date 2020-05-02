@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+
+:root
+{
+  --secondaryColor: #35B88F;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body
+{
+  color: white;
+  /* background-color: rgb(35, 47, 59); */
+  /* background-color: black; */
+  background-color: rgb(22, 23, 24);
+}
+.totalHeading
+{
+  width: 100%;
+  padding-bottom: 500px;
+}
+
+
+/* Beginning of Heading */
+.heading
+{
+  width: 100%;
+  padding: 20px;
+}
+.navbar
+{
+  width: 80%;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.center
+{
+  padding: 0px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.center:hover
+{
+  transform: scale(1.1);
+  color: var(--secondaryColor);
+}
+
+#resume
+{
+  font-size: 14px;
+  color: var(--secondaryColor);
+}
+#resume:hover
+{
+  color: white;
+}
+@media screen and (max-width: 900px)
+{
+  .navbar
+  {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px)
+{
+  .heading
+  {
+    height: 0px;
+  }
+  .center 
+  {
+    font-size: 12px;
+  }
+  #resume
+  {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  .heading
+  {
+    display: none;
+  }
+}
+/* End of Heading */
+
+
+/* Beginning of Title */
+.titleSection
+{
+  margin-top: 110px;
+  width: 100%;
+  padding-left: 100px;
+}
+.title
+{
+  width: 100%;
+  position: relative;
+  font-size: 45px;
+  color: white;
+  margin-bottom: 5px;
+}
+.title span
+{
+  /* color: #35B88F; */
+  color: var(--secondaryColor);
+}
+hr
+{
+  position: relative;
+  width: 800px;
+  border-top: 1px white;
+}
+.smallLine { display: none;}
+.subTitle
+{
+  position: relative;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px)
+{
+  .titleSection
+  {
+    padding-left: 75px;
+  }
+  .title
+  {
+    font-size: 35px;
+  }
+  hr
+  {
+    width: 600px;
+  }
+  .subTitle
+  {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 800px)
+{
+  .titleSection
+  {
+    padding-left: 25px;
+  }
+  hr
+  {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 600px)
+{
+  .titleSection
+  {
+    margin-top: 50px;
+    width: 100%;
+    padding-left: 0px;
+  }
+  .title
+  {
+    width: 100%;
+    position: relative;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .firstLine
+  {
+    display: none;
+  }
+  .smallLine 
+  { 
+    position: relative;
+    display: flex;
+    margin: 25px auto;
+    width: 150px;
+    color: white;
+  }
+  .subTitle
+  {
+    position: relative;
+    font-size: 20px;
+  }
+}
+/* End of Title */
+
+
+
+
+/* Beginning of Contact Links */
+.wholeCL
+{
+  margin-top: 175px;
+}
+.linksTitle
+{
+  position: relative;
+  padding-left: 95px;
+  font-size: 25px;
+  color: var(--secondaryColor);
+}
+.contactLinks{
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+  padding-left: 100px;
+  /* margin-bottom: 1000px; */
+}
+.contactLinks i{
+  display: inline-block;
+  margin-right: 60px;
+  font-size: 25px;
+  color: white;
+}
+.contactLinks i:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  color: var(--secondaryColor);
+}
+.contactLinks a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1000px)
+{
+  .linksTitle
+  {
+    padding-left: 70px;
+  }
+  .contactLinks
+  {
+    padding-left: 75px;
+  }
+}
+@media screen and (max-width: 800px)
+{
+  .linksTitle
+  {
+    padding-left: 20px;
+  }
+  .contactLinks
+  {
+    padding-left: 25px;
+  }
+}
+@media screen and (max-width: 600px)
+{
+  .wholeCL
+  {
+    margin-top: 100px;
+  }
+  .linksTitle
+  {
+    position: relative;
+    text-align: center;
+    padding-left: 0px;
+    font-size: 18px;
+  }
+  .contactLinks
+  {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 0px;
+  }
+  .contactLinks i
+  {
+    margin: 0px 20px;
+    font-size: 25px;
+  }
+}
+/* End of Contact Links */
+
+#arrow
+{
+  position: relative;
+  left: 50%;
+  margin-top: 75px;
+
+  animation: fadeInOut 3s linear infinite;
+  color: white;
+  font-size: 35px;
+}
+#arrow:hover
+{
+  cursor: pointer;
+  color: var(--secondaryColor);
+  transform: scale(1.3);
+}
+@keyframes fadeInOut
+{
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+
+
+/* End of About Me */
