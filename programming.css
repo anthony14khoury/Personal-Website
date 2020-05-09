@@ -1,0 +1,246 @@
+/* Programming Experience */
+.programming-experience {
+     padding-top: 75px;
+     padding-bottom: 500px;
+
+     background-color: #51e5ff;
+     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23ffffff' stroke-width='35.6' stroke-opacity='0.08' %3E%3Ccircle fill='%2351e5ff' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%2341deff' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%2333d7ff' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%2325d0ff' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%231dc8ff' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%231ec1ff' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%2327b9ff' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%2334b1ff' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%2342a8fc' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%234f9ff8' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%235d96f3' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23698dec' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%237583e5' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%238079dc' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%238a6fd2' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%239364c7' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%239b58bb' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23a14cae' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+     background-attachment: fixed;
+     background-size: cover;
+}
+
+.programming-experience p {
+     text-align: center;
+     margin: auto;
+}
+
+.programming-title {
+     font-size: 30px;
+}
+
+.programmingParagraph1 {
+     width: 75%;
+     padding-top: 30px;
+     font-size: 18px;
+}
+
+.programmingParagraph2 {
+     padding-top: 20px;
+     font-size: 18px;
+}
+
+.programmingParagraph3 {
+     padding-top: 20px;
+     font-size: 18px;
+}
+
+.tabcontent {
+     width: 60%;
+     margin: auto;
+     margin-top: 75px;
+}
+
+.remainder,
+.concept,
+.number {
+     color: white;
+     text-align: center;
+     padding: 3px;
+}
+
+.concept {
+     background-color: #35B88F;
+
+}
+
+.number {
+     background-color: #1E2642;
+
+}
+
+.remainder {
+     background-color: rgb(207, 207, 211);
+     color: black;
+     text-align: right;
+     padding-right: 15px;
+}
+
+.tabInfo {
+     margin-top: 10px;
+}
+
+.cPlusPlus,
+.Java,
+.python,
+.JavaScript,
+.html,
+.css,
+.React,
+.github,
+.gcp,
+.sql,
+.penTesting {
+     width: 100%;
+     display: grid;
+}
+
+.cPlusPlus {
+     grid-template-columns: 2fr 9fr 1fr;
+}
+
+.python {
+     grid-template-columns: 2fr 5fr 5fr;
+}
+
+.Java {
+     grid-template-columns: 2fr 7fr 3fr;
+}
+
+.JavaScript {
+     grid-template-columns: 2fr 6fr 4fr;
+}
+
+.html {
+     grid-template-columns: 2fr 9fr 1fr;
+}
+
+.css {
+     grid-template-columns: 2fr 9fr 1fr;
+}
+
+.React {
+     grid-template-columns: 2fr 6fr 4fr;
+}
+
+.github {
+     grid-template-columns: 2fr 9fr 1fr;
+}
+
+.gcp {
+     grid-template-columns: 2fr 6fr 4fr;
+}
+
+.sql,
+.penTesting {
+     grid-template-columns: 2fr 0fr 10fr;
+}
+
+
+.html .remainder,
+.css .remainder {
+     background-color: #1E2642;
+     color: white;
+}
+
+@media screen and (max-width: 1200px) {
+     .programming-title {
+          font-size: 28px;
+     }
+     
+     .programmingParagraph1 {
+          width: 85%;
+          font-size: 17px;
+     }
+     
+     .programmingParagraph2 {
+          font-size: 17px;
+     }
+     
+     .programmingParagraph3 {
+          padding-top: 20px;
+          font-size: 17px;
+     }
+     .tabcontent {
+          width: 70%;
+     }
+}
+
+@media screen and (max-width: 900px) {
+     .programming-title {
+          font-size: 25px;
+     }
+     
+     .programmingParagraph1 {
+          width: 95%;
+          font-size: 16px;
+     }
+     
+     .programmingParagraph2 {
+          width: 95%;
+          font-size: 16px;
+     }
+     
+     .programmingParagraph3 {
+          width: 95%;
+          padding-top: 20px;
+          font-size: 16px;
+     }
+     .tabcontent {
+          width: 80%;
+     }
+}
+@media screen and (max-width: 600px) {
+     .programming-title {
+          font-size: 23px;
+     }
+     
+     .programmingParagraph1 {
+          font-size: 15px;
+     }
+     
+     .programmingParagraph2 {
+          font-size: 15px;
+     }
+     
+     .programmingParagraph3 {
+          padding-top: 20px;
+          font-size: 15px;
+     }
+     .tabcontent {
+          width: 85%;
+     }
+
+
+     .cPlusPlus {
+          grid-template-columns: 3.5fr 9fr 1fr;
+     }
+     
+     .python {
+          grid-template-columns: 3.5fr 5fr 5fr;
+     }
+     
+     .Java {
+          grid-template-columns: 3.5fr 7fr 3fr;
+     }
+     
+     .JavaScript {
+          grid-template-columns: 3.5fr 6fr 4fr;
+     }
+     
+     .html {
+          grid-template-columns: 3.5fr 9fr 1fr;
+     }
+     
+     .css {
+          grid-template-columns: 3.5fr 9fr 1fr;
+     }
+     
+     .React {
+          grid-template-columns: 3.5fr 6fr 4fr;
+     }
+     
+     .github {
+          grid-template-columns: 3.5fr 9fr 1fr;
+     }
+     
+     .gcp {
+          grid-template-columns: 3.5fr 6fr 4fr;
+     }
+     
+     .sql,
+     .penTesting {
+          grid-template-columns: 3.5fr 0fr 9fr;
+     }
+}
+
+/* End of Programming Experience */
